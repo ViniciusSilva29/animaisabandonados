@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Animais Abandonados</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+
+    <div class="rodape">
+        <h1>Bem vindo!</h1>
+        <nav>
+            <ul>
+                <a href="sobre.php">Sobre</a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1>Projeto Animais Abandonados</h1>
+
+        <br>
+
+        <p>
+            Este site tem como objetivo conscientizar as pessoas sobre o abandono de animais,
+            um problema muito sério que afeta milhares de cães e gatos todos os dias.
+        </p>
+
+        <br>
+
+        <p>
+            Aqui você poderá entender melhor essa realidade, conhecer formas de ajudar
+            e aprender como fazer a diferença na vida desses animais.
+        </p>
+
+        <br>
+
+        <p>
+            Adotar é um ato de amor. Não compre, adote!
+        </p>
+
+        <br>
+
+        <div class="botoes">
+            <a href="form.php">Cadastre-se e nos ajude</a>
+            <a href="animais.php">Ver Animais</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Animais Abandonados</p>
+    </footer>
+
+</body>
+</html>

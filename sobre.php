@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajude Animais Abandonados</title>
+    <link rel="stylesheet" href="assets/css/sobre.css">
+</head>
+<body>
+
+<div class="rodape">
+        <h1>Bem vindo!</h1>
+        <nav>
+            <ul>
+                <a href="index.php">Voltar</a>
+            </ul>
+        </nav>
+    </div>
+
+<header class="rodapé">
+    <h1>Animais Abandonados</h1>
+    <p>Ajude a dar um novo lar para quem precisa </p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            Este site foi criado com o objetivo de ajudar animais abandonados a encontrarem um lar cheio de amor.
+            Aqui você pode conhecer cães e gatos disponíveis para adoção, além de aprender como contribuir com a causa.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Como Ajudar</h2>
+        <ul>
+            <li>Adotando um animal</li>
+            <li>Doando ração ou dinheiro</li>
+            <li>Divulgando o projeto</li>
+            <li>Se voluntariando</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Animais para Adoção</h2>
+        <p>
+            Conheça alguns dos animais disponíveis e ajude a mudar a vida deles.
+        </p>
+        <button>
+            <a href="animais.php">Ver animais</a>
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 - Projeto Animais Abandonados</p>
+</footer>
+
+</body>
+</html>
