@@ -12,38 +12,63 @@
         <nav>
             <ul>
                 <a href="index.php">Inicio</a>
-                <a href="#">Voltar</a>
+                <a href="sobre.php">Sobre</a>
             </ul>
         </nav>
     </div>
 
 <form action="resultadoform.php" method="post">
-    <h2>Denúncia de Abandono de Animais</h2>
+    <h2>Preencha seu cadastro e adote seu animal!</h2>
+
+    <br>
+    <br>
+    <br>
 
     <label for="nome">Nome (opcional):</label>
     <input type="text" id="nome" name="nome">
 
+    <br>
+    <br>
+    <br>
+
     <label for="email">E-mail para contato:</label>
     <input type="email" id="email" name="email" required>
 
+    <br>
+    <br>
+    <br>
+
     <label for="tipo">Tipo de animal:</label>
     <select id="tipo" name="tipo">
-        <option value="cachorro">Cachorro</option>
-        <option value="gato">Gato</option>
+        <option value="cachorro">Cães</option>
+        <option value="gato">Gatos</option>
         <option value="outro">Outro</option>
     </select>
+
+    <br>
+    <br>
+    <br>
 
     <label for="quantidade">Quantidade de animais:</label>
     <input type="number" id="quantidade" name="quantidade" min="1">
 
-    <label for="local">Local do abandono:</label>
-    <input type="text" id="local" name="local" required>
+    <br>
+    <br>
+    <br>
 
-    <label for="descricao">Descrição da situação:</label>
+    <label for="descricao">Motivo da adoção</label>
     <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o que aconteceu..." required></textarea>
 
-    <label for="data">Data do ocorrido:</label>
+    <br>
+    <br>
+    <br>
+
+    <label for="data">Data da adoção:</label>
     <input type="date" id="data" name="data">
+
+    <br>
+    <br>
+    <br>
 
     <button type="submit">Enviar Denúncia</button>
 </form>

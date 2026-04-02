@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adote</title>
+    <title>Animais para adoção  </title>
+    <link rel="stylesheet" href="assets/css/animais.css">
 </head>
 <body>
 
     <div class="rodape">
         <h1>Nossos animais</h1>
         <h2>Conheça alguns animais nossos disponiveis para a adoção</h2>
+        <nav>
+            <ul>
+                <a href="index.php">Inicio</a>
+                <a href="sobre.php">Voltar</a>
+            </ul>
+        </nav>
     </div>
 
-    <div class="imagens">
+    <div class="imagem1">
         <h3>Mike</h3>
-        <img src="assets/img/animal1.jpg" width="860px" height="600px" alt="">
-        
-        <img src="assets/img/animal2.jpg" width="860px" height="600px" alt="">
+        <img src="assets/img/animal1.jpg" width="560px" height="400px" alt="Mike">
+
+    <br>
+    <br>
+
+        <h3>Chico</h3>
+        <img src="assets/img/animal2.jpg" width="560px" height="400px" alt="Chico">
     </div>
+
+    <br>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Animais Abandonados</p>
+    </footer>
     
 </body>
 </html>
