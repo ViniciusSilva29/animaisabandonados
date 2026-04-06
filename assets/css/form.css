@@ -31,6 +31,7 @@ p {
 }
 
 footer {
+    background-color: #4CAF50;
     position: absolute;
     bottom: 0; width: 100%;
 }

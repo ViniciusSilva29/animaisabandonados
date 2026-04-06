@@ -28,6 +28,14 @@ h3 {
     font-size: 30px;
 }
 
+.imagem {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+}
+
 .botoes a {
     text-decoration: none;
     background-color: #4CAF50;

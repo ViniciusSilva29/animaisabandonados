@@ -26,5 +26,9 @@
     <a href="form.php">Voltar ao formulário</a>
 </div>
 
+    <footer>
+        <p>&copy; 2026 - Casa lar</p>
+    </footer>
+
 </body>
 </html>
