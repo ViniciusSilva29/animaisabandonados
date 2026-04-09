@@ -9,7 +9,7 @@
 
 <div class="container">
     <h2>Adoção Feita Com Sucesso!</h2>
-    <p class="sucesso">Obrigado por contribuir com a proteção dos animais 🐾</p>
+    <p class="sucesso">Obrigado por contribuir com a proteção dos animais!</p>
 
     <h3>Resumo da sua adoção:</h3>
 
@@ -23,12 +23,12 @@
     <br>
     <p>As informações foram registradas e poderão ser encaminhadas para as autoridades responsáveis.</p>
 
-    <a href="form.php">Voltar ao formulário</a>
-</div>
+    <img src="assets/img/qrcode.jpeg" alt=""> <p>Caso deseja saber mais informações, escaneie o Qr Code acima!</p>
 
-    <footer>
-        <p>&copy; 2026 - Casa lar</p>
-    </footer>
+    <br>
+
+    <a href="form.html">Voltar ao formulário</a>
+</div>
 
 </body>
 </html>

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Onest:wght@100..900&display=swap');
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lexend Deca";
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 50px;
 }
 
 .container {
@@ -9,12 +12,25 @@ body {
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-     margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: auto;
 }
+
+.container a, a:visited, a:link {
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #c0c0c0;
+    border-radius: 5em;
+}
+
+img {
+    max-width: 300px;
+}
+
 
 h2 {
     color: #2c7a7b;
+    font-size: 40px;
+    text-align: left;
 }
 
 p {
@@ -24,10 +40,4 @@ p {
 .sucesso {
     color: green;
     font-weight: bold;
-}
-
-footer {
-    background-color: #4CAF50;
-    position: absolute;
-    bottom: 0; width: 100%;
 }
