@@ -20,6 +20,11 @@ body {
     align-items:center;
 }
 
+.rodape a, a:visited, a:link {
+    color:  white;
+    text-decoration: none;
+}
+
 
 h1 {
     color: #333;
